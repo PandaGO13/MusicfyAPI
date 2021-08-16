@@ -2,15 +2,19 @@
 
 Este proyecto fue creado utilizando .NET CORE
 
-## Cadena de Conexión (Development Mode)
+## AppSettings (Development Mode)
 
-Modificar la cadena de conexión en appsettings.Development.json en "defaultConnection".
+Modificar la cadena de conexión en appsettings.Development.json en "defaultConnection". Ejm:
 
 ```cs
 "Data Source=.\\SQLEXPRESS; Initial Catalog=MusicfyAPI; Integrated Security=True"
 ```
 
-En frontend_url se agrega el dominio del frontend para permitir su acceso.
+En frontend_url se agrega el dominio del frontend para permitir su acceso. Ejm:
+
+```cs
+"http://localhost:3000"
+```
 
 ## Creación BD
 
